@@ -1,0 +1,265 @@
+---
+title: "Petr Šimeček's resume"
+author: Petr Simecek
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    # if false, I am having trouble to see resulting HTML page in Chrome
+    self_contained: true
+---
+
+Aside
+================================================================================
+
+
+![Petr Šimeček](assets/photo.jpg){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> simecek@gmail.com
+- <i class="fa fa-github"></i> [github.com/simecek](https://github.com/simecek)
+- <i class="fa fa-twitter"></i> [twitter.com/python_tip](https://twitter.com/python_tip)
+- <i class="fa fa-phone"></i> +420 723-485-497
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Python, gradient boosting (LightGBM, CatBoost), neural networks (PyTorch, TF). Cloud enthusiast.  
+
+- Fluent in R: Shiny, Rcpp, Tidyverse, RMarkdown. Time series forecasting. QTL Mapping.
+
+- Some experience with C++, JavaScript, Bash, LaTeX, Perl, Scala, ...
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [pagedown](https://github.com/rstudio/pagedown). 
+The source file can be found on my [Github](https://github.com/simecek/cv).
+
+
+
+Main
+================================================================================
+
+Petr Šimeček {#title}
+--------------------------------------------------------------------------------
+
+### Data Scientist, Bioinformatics Analyst, ML Engineer
+
+<!-- Please note that this is a *real* resume, and I'm really looking for a PhD -->
+<!-- student position at the moment. I made this resume because Yihui asked me -->
+<!-- if I'd like to test the **pagedown** package with my resume. If you are -->
+<!-- interested in my background and skills, please feel free to contact me. -->
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Biostatistician
+
+Institute of Animal Science
+
+Prague, Czechia
+
+2007 - 2009
+
+::: concise
+- Designing experiments
+- Categorical data analysis
+- Mixed-effects models
+- GPS tracking data
+:::
+
+### Bioinformatician
+
+Institute of Molecular Genetics
+
+Prague, Czechia
+
+2007 - 2017
+
+::: concise
+- Mouse genetics
+- Next generation sequencing
+- Metabolomics
+- Later Head of Bioinformatics Unit
+- IMPC database
+:::
+
+### Bioinformatics Analyst
+
+The Jackson Laboratory
+
+Bar Harbor, Maine, USA
+
+2013 - 2017
+
+::: concise
+- QTL mapping
+- Mouse diversity outbred
+- Mediation analysis
+- Aging and its effect on proteome
+- R/Shiny & Docker
+:::
+
+### Data Scientist
+
+Google LLC
+
+Mountain View, California, USA
+
+2017 - 2018
+
+::: concise
+- Time Series: development and maintenance of internal time series forecasting tool
+- Various ad hoc analysis
+- Deep learning applied to time series forecasting
+:::
+
+### Machine Learning Engineer
+
+Central European AI Institute (CEAi)
+
+Brno, Czechia
+
+2019
+
+::: concise
+- ML model to predict house prices 
+- Gradient boosting (XGBoost, LightGBM, CatBoost), neural networks (fast.ai, keras, TF) 
+- Amazon EC2, S3, ECS, Elastic Beanstalk, CloudWatch, Apache Airflow
+:::
+
+
+Teaching And Selected Talks {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Introduction to R Language for Beginners.
+
+Instructor of Software Carpentry and Software for Scientists, https://crabhi.github.io/2016-10-08-umg/.
+
+Boston, USA & Prague, Czechia
+
+2015 - 2017
+
+### Deep Learning: From Zero To Hero in Two Hours.
+
+Workshop with intro to deep learning (together with Karla Fejfarova), https://github.com/simecek/from0toheroin2h.
+
+Prague, Czechia
+
+2018 - 2019
+
+### Statistical vs. Deep Learning Methods for Time Series Forecasting.
+
+Recent talk at Machine Learning Meetup, https://youtu.be/mqYwy5RuSQQ
+
+Brno, Czechia
+
+2019
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+
+### Charles University in Prague
+
+Mgr. (M.Sc.) in Probability Theory and Stochastic Processes (1st prize in the diploma–thesis competition at Department of Probability and Mathematical Statistics in July 2003)
+
+Prague, Czechia
+
+1998 - 2003
+
+Thesis: On the Minimal Probability of Intersection of  Dependent Events
+
+### Vrije Universiteit
+
+Socrates / Erasmus Exchange
+
+Amsterdam, Netherlands
+
+2002
+
+### Hasselt Universiteit
+
+Master of Science in Biostatistics
+
+Hasselt, Belgium
+
+::: concise
+- AIA Fellowship (one of two annually awarded to Czech students)
+- MSc. degree with the great distinction 
+:::
+
+2004 - 2005
+
+Thesis: Gene Expression Data Analysis for In Vitro Toxicology
+
+
+### Charles University in Prague
+
+Ph.D. in Mathematical Statistics and Probability Theory (thesis summary at http://bit.ly/2SazFPc)
+
+Prague, Czechia
+
+2003 - 2007
+
+Thesis: Independence Models
+
+
+
+Selected Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+See my [Google Scholar profile](https://scholar.google.cz/citations?user=248ewekAAAAJ&hl=en) for the full list of 20+ papers and >750 citations.
+
+<!-- ### Dissecting the genetic architecture of F1 hybrid sterility in house mice. -->
+
+<!-- Evolution: International Journal of Organic Evolution. 2012 Nov;66(11):3321-35. -->
+
+<!-- N/A -->
+
+<!-- 2012 -->
+
+<!-- Dzur‐Gejdosova M, **Simecek P**, Gregorova S, Bhattacharyya T, Forejt J. -->
+
+### Genetic analysis of substrain divergence in non-obese diabetic (NOD) mice.
+
+G3: Genes, Genomes, Genetics. 2015 May 1;5(5):771-5.
+
+N/A
+
+2015
+
+**Simecek P**, Churchill GA, Yang H, Rowe LB, Herberg L, Serreze DV, Leiter EH.
+
+
+### Defining the consequences of genetic variation on a proteome-wide scale.
+
+Nature. 2016 Jun;534(7608):500.
+
+N/A
+
+2016
+
+Chick JM, Munger SC, **Simecek P**, Huttlin EL, Choi K, Gatti DM, Raghupathy N, Svenson KL, Churchill GA, Gygi SP. 
+
+### High-resolution maps of mouse reference populations.
+
+G3: Genes, Genomes, Genetics. 2017 Oct 1;7(10):3427-34.
+
+N/A
+
+2017
+
+**Simecek P**, Forejt J, Williams RW, Shiroishi T, Takada T, Lu L, Johnson TE, Bennett B, Deschepper CF, Scott-Boyer MP, de Villena FP.
+ 
+
+
