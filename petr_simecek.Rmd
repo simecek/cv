@@ -5,8 +5,8 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    # if false, I am having trouble to see resulting HTML page in Chrome
-    self_contained: true
+    # if false, I am having trouble to see resulting HTML page locally in Chrome
+    self_contained: false
 ---
 
 Aside
